@@ -9,7 +9,9 @@
 import Foundation
 import Alamofire
 import Japx
+#if SWIFT_PACKAGE
 import JapxAlamofire
+#endif
 
 public class APIClient {
     static let sessionManager = Session()
