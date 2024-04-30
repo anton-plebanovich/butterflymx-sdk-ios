@@ -16,5 +16,5 @@ Pod::Spec.new do |s|
   ]
 
   s.dependency 'BMXCore', '~> 2.3.3'
-  s.dependency 'TwilioVideo', '~> 5.1.0'
+  s.dependency 'TwilioVideo', '~> 5.1'
 end
